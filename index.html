@@ -2,48 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Plantify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Pixel Stories</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon16.png" type="image/png">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/main.css">
+  <script src="js/hamburger-menu.js"></script>
 </head>
-<body>
-  <div class="container">
 
-    <header>
-      <nav>
-        <a href="index.html"><img alt="plantify-logo" src="images/plantify_new.png" class="logotype"></a>
-        <ul class="nav-links">
+<body>
+  <!-- NAVIGATION MENU -->
+  <header>
+    <div class="fixed-menu">
+      <div class="logo">
+        <a href="index.html">
+          <img srcset="images/logo@0,1x.png 320w, 
+                       images/logo@0,25x.png 640w,
+                       images/logo@0,5x.png 1240w"
+               sizes="50vw"
+               src="images/logo@0,1x.png"
+               alt="logo pixelstories">
+        </a>
+      </div>
+      <a href="#" id="hamburg-menu" class="nav-menu-icon" onclick="toggleMenu()"></a>
+      <a href="#" id="close-hamburg-menu" class="nav-close-menu-icon" onclick="toggleMenu()"></a>
+      <nav id="toggle-menu" class="nav-menu-links">
+        <ul class="nav-menu">
           <li><a href="index.html" title="Home">Home</a></li>
-          <li><a href="pricing.html" title="Pricing">Pricing</a></li>
-          <li><a href="themes.html" title="Plant themes">Plant themes</a></li>
-          <li><a href="about.html" title="About Us">About Us</a></li>
+          <li><a href="projects.html" title="Projects">Projects</a></li>
+          <li><a href="about.html" title="About us">About us</a></li>
           <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <article>
-        <h2 class="center-title">What we do</h2>
-        <p><strong>Plantify</strong> revolutionizes the way you think about plants in an office environment. Plantify isn't just a a delivery service for plants, it's a delivery service for new ideas. Plantify makes it easy to keep your workplace fresh and oxygenated. A workplace that is a alive create ideas that live on.</p>
-        <div class="column one-third">
-          <figure>
-            <img class="image" alt="pexels-photo-home-first" src="images/pexels-photo-home-first.jpeg">
-          </figure>
-        </div>
-        <div class="column one-third">
-          <figure>
-            <img class="image" alt="pexels-photo-home-second" src="images/pexels-photo-home-second.jpeg">
-          </figure>
-        </div>
-        <div class="column one-third">
-          <figure>
-            <img class="image" alt="pexels-photo-home-third" src="images/pexels-photo-home-third.jpeg">
-          </figure>
-        </div>
-      </article>
-    </main>
+  <main>
+  <!-- BACKGROUND IMAGE -->
+    <section class="first-background-image">
+      <div>
+        <!-- GÖRA NÅN MED DETTA 
+        <p>The best designs</p>
+        <p>tell a story</p> -->
+        <div class="red-rectangle"></div>
+      </div>
+    </section>
 
-  </div>
+    <!-- OUR CONCEPT -->
+    <section class="container">
+      <div class="my-image our-concept-image">
+        <div class="our-concept-project-text">
+          <h1>Our Concept</h1>
+          <p class="my-usual-text">We love challenge, and are passionate about what we do, giving your brand image a life. We listen to your story and translate it into our design with our experience. Send your brand story to your audience! We help you to give a form to your brand.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR PROJECTS -->
+    <section class="container">
+      <div class="my-image our-project-image">
+        <div class="our-concept-project-text">
+          <h1>Our projects</h1>
+          <p class="my-usual-text">Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects Bla bla bla our projects</p>
+          <button class="all-buttons" formaction="projects.html" type="button">Read more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR CLIENTS -->
+    <section class="container">
+      <div class="my-image our-clients-image">
+        <h1>Our clients</h1>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section class="container">
+      <div class="my-image our-about-us-image">
+        <h1>About us</h1>
+        <p class="my-usual-text">Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us Bla bla bla text about us</p>
+        <button class="all-buttons" formaction="about.html" type="button">Read more</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Pixel Stories</p>
+    <p>Tomtebodavägen 3A</p>
+    <p>171 65, Solna</p>
+    <p>08-466 60 00</p>
+    <p>pixelstories.se</p>
+  </footer>
+
 </body>
 </html>

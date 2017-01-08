@@ -1,3 +1,3 @@
-# SvetlanaSS.github.io
-
-Inlämningsuppgift_HTML/CSS_Plantify
+# responsive
+Responsive Design without framework
+https://pixelstories.github.io/responsive/
