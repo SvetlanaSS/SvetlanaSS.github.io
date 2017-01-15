@@ -1,0 +1,212 @@
+/* -------------------------------------------------------------------------------------------------------------------------
+  GENERAL SETTINGS
+---------------------------------------------------------------------------------------------------------------------------- */
+/* Detta sättas från 0px till 767px - mobile first */
+
+html {
+  font-size: 62.5%;
+  font-weight: 100;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: "Open Sans";
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 2%;
+}
+
+.container {
+  height: 94vw;
+  width: 94vw;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 5rem;
+  }
+    h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  PROJECT-BACKGROUND BILD
+---------------------------------------------------------------------------------------------------------------------------- */
+.project-container {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .project-container {
+    display: block;
+  }
+
+  .project-background {
+    background-image: url(../images/project_desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100vh;
+    position: relative;
+    width: auto;
+  }
+
+  .center-header {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  PROJECT 1, 2, 3, 4 BILD
+---------------------------------------------------------------------------------------------------------------------------- */
+.project-element-container {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.project-element-background-1 {
+  background-image: url(../images/project1_mobile_port.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 767px) and (orientation:landscape) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+.project-element-background-2 {
+  background-image: url(../images/project2_mobile_port.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 767px) and (orientation:landscape) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
+}
+
+.project-element-background-3 {
+  background-image: url(../images/project3_mobile_port.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 767px) and (orientation:landscape) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
+}
+
+.project-element-background-4 {
+  background-image: url(../images/project4_mobile_port.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 767px) and (orientation:landscape) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
