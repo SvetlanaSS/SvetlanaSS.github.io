@@ -93,6 +93,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  margin-left: -2%;
 }
 
 .home-background-header {
@@ -296,7 +297,7 @@ main {
   .our-clients-container {
     display: block;
     margin-top: 1rem;
-    position: relative;
+  
   }
 
   .our-clients-background {
@@ -305,6 +306,7 @@ main {
     display: block;
     height: 100vh;
     width: auto;
+    position: relative;
   }
 
   .clients-rectangle {
@@ -314,7 +316,14 @@ main {
     padding: 2rem;
     position: absolute;
     text-align: center;
-    top: 15%;
+    top: 17%;
+    width: 100%;
+  }
+
+  .clients-icon-center {
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
   }
 }
 
